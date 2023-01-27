@@ -6,6 +6,7 @@ const CustomerListTable = ({item, index, onDelete, isChange, updateCustomerItem,
   const [isUpate, setIsUpdate] = useState(false)
   const [newName, setNewName] = useState(item.customerName)
 
+
   const onChecked = (e) => {
     let targetValue = e.target.defaultValue;
     if(e.target.checked){
@@ -16,6 +17,7 @@ const CustomerListTable = ({item, index, onDelete, isChange, updateCustomerItem,
     }
   }
 
+
   const onDeleteSub = () => {
     document.getElementById(index).click()
 
@@ -23,10 +25,12 @@ const CustomerListTable = ({item, index, onDelete, isChange, updateCustomerItem,
     setIsUpdate(false)
   }
 
+
   const onUpdateView = () => {
     setNewName(item.customerName)
     setIsUpdate(!isUpate)
   }
+  
 
   const onUpdate = () => {
     if(item.customerName == newName){
@@ -46,15 +50,18 @@ const CustomerListTable = ({item, index, onDelete, isChange, updateCustomerItem,
     }
   }
 
+
   const newNameHandler = (e) => {
     setNewName(e.target.value)
   }
+
 
   const enterKeyUpdate = (e) => {
     if(e.keyCode == 13){
       onUpdate()
     }
   }
+
 
   useEffect(()=>{
     let target = document.getElementById(index)

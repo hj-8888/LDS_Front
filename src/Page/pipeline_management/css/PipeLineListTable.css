@@ -1,16 +1,20 @@
+.pipeLineMnagement-container-lists{
+    width: 100%;
+}
+
 .pipeLineMnagement-container-list-item-update{
     margin-right: 10px;
     cursor: pointer;
 }
 
 .pipeLineMnagement-container-list-checkbox-label{
-    text-align: justify;
     cursor: pointer;
 }
 
-.pipeLineMnagement-container-list-checkbox-label span{
-    margin-left: 25%;
+.pipeLineMnagement-container-list-checkbox-label input{
+    margin-right: 6px;
 }
+
 
 .pipeLineMnagement-container-list-item-delete{
     background-color: red;

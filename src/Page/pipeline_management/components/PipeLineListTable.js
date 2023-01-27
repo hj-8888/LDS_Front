@@ -17,6 +17,8 @@ const PipeLineListTable = ({ deptsList, customersList, typesList, item,  isChang
   const [color, setColor] = useState('none');
   const [font, setfont] = useState('none')
 
+
+  // input 데이터 제어
   const pipeLineDataChangeHandler = (e) => {
     let targetName = e.target.name;
     let targetValue = e.target.value.replace(/,/g, "");
@@ -343,11 +345,10 @@ const PipeLineListTable = ({ deptsList, customersList, typesList, item,  isChang
 
   return (
     <>
-
             <tr className='pipeLineMnagement-container-lists'>
 
-              <label className='pipeLineMnagement-container-list-checkbox-label'>
-                <td width='100' colSpan={1}>
+              <label className='pipeLineMnagement-container-list-checkbox-label' >
+                <td colSpan={1} align='center' >
                   <input 
                       className='pipeLineMnagement-container-list-checkbox' 
                       id ={index}
@@ -355,29 +356,27 @@ const PipeLineListTable = ({ deptsList, customersList, typesList, item,  isChang
                       defaultValue={item.pipelineID}  
                       onClick={(e)=>onChecked(e)}
                   />
-                  <span>
                     {index+1}
-                  </span>
                 </td>
               </label>
 
-              <td  colSpan={1} align='center' >
+              <td  colSpan={1} align='center' width='150px'>
                 {item.typeName}
               </td>
 
-              <td  colSpan={1} align='center' >
+              <td  colSpan={1} align='center' width='150px'>
                   {item.deptName}
               </td>
 
-              <td colSpan={1} align='center'>
+              <td colSpan={1} align='center' width='150px'>
                   {item.customerName}
               </td>
 
-              <td colSpan={2} align='center'>
+              <td colSpan={2} align='center' width='200px'>
                   {item.title}
               </td>
 
-              <td colSpan={2} align='center'>
+              <td colSpan={1} align='center'>
                   <button className='pipeLineMnagement-container-list-item-update' onClick={()=> onSelectView()}>조회</button>
                   <button className='pipeLineMnagement-container-list-item-delete' onClick={()=> onDeleteSub()}>삭제</button>
               </td>

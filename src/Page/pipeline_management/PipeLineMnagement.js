@@ -155,6 +155,10 @@ const PipeLineMnagement = () => {
   },[dateData, isChange])
 
   useEffect(()=>{
+    setPipeLineItemsData()
+  },[isChange])
+
+  useEffect(()=>{
     setAdditionsItemsData()
     setHeadquartersItemsData()
   },[])
