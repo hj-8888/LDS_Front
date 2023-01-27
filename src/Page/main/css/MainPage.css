@@ -1,0 +1,78 @@
+.main-page-continer{
+    display: grid;
+    grid-template-columns: 250px 1100px;
+    grid-template-rows: 100%;
+}
+
+.main-side{
+    width: 250px;
+}
+
+.main-page-box{
+    display: grid;  
+    width: 1250px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7rem 600px;
+}
+
+.main-page-head{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.main-page-head-title{
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    font-weight: 600;
+    user-select: none;
+}
+
+.main-page-body{
+    background-color: white;
+    height: 100%;
+    margin: 1rem;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.main-page-body-select-menu{
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    user-select: none;
+}
+
+.main-page-body-contents{
+    padding-left: 5%;
+}
+
+.main-page-turnbutton{
+    cursor: pointer;
+    margin-left: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(248, 40, 40);
+    color: white;
+    text-align: center;
+    white-space:nowrap;
+}
+
+.main-page-turnbutton-title{
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.main-page-turnbutton-close{
+    padding-left: 5px;
+}
+
+.main-page-body-content{
+    margin-right: 50px;
+}

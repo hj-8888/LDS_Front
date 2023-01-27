@@ -1,0 +1,64 @@
+.customerManagement-container-list-item-update{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.customerManagement-container-list-checkbox-label{
+    width: 100px;
+    cursor: pointer;
+}
+
+.customerManagement-container-list-checkbox{
+    margin-right: 28px;
+}
+
+.customerManagement-container-list-item-delete{
+
+    background-color: red;
+}
+
+.customerManagement-container-list-item-update{
+
+    background-color: lightgreen;
+}
+
+.customerManagement-container-list-checkbox-label:hover{
+    background-color: rgb(220, 231, 235);
+}
+
+.customerManagement-container-list-item-delete:hover{
+    background-color: rgb(206, 3, 3);
+    color: white;
+}
+
+.customerManagement-container-list-item-update:hover{
+    background-color: rgb(94, 204, 94);
+    color: white;
+}
+
+.customerManagement-container-list-customerName{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.customerManagement-container-list-item-update-td input{
+    text-align: center;
+    margin-left: 90px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.customerManagement-container-list-item-update-td button:hover{
+    color: white;
+}
+
+.customerManagement-container-list-item-update-updateButton{
+    background-color:  lightgreen;
+    margin-inline-start: 5px;
+}
+
+.customerManagement-container-list-item-update-cencleButton{
+    background-color: red;
+    margin-inline-start: 5px;
+}

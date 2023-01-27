@@ -1,0 +1,24 @@
+.sideBar-container{
+    border-top-right-radius: 15px;
+    background-color: rgb(230, 75, 75);
+    background: linear-gradient(red, red, lightgray);
+    height: 100%;
+}
+
+
+.sideBar-home-menu{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.sideBar-home-title{
+    font-style: oblique;
+    display: block;
+    color: white;
+    user-select: none;
+}
+
+.menuItems-box{
+    display: flex;
+    flex-direction: column;
+}

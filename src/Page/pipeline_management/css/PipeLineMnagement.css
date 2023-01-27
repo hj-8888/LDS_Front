@@ -1,0 +1,99 @@
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+
+table td {
+    height: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+.pipeLineMnagement-container-list-box{
+    width: 100%;
+    height: 300px;
+}
+
+.pipeLineMnagement-container{
+    user-select: none;
+    width: 100%;
+    height: 100%;
+}
+
+.pipeLineMnagement-container-checkedDelte{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(192, 188, 188);
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.pipeLineMnagement-container-addButton{
+    border-radius: 5px; 
+    border: none;
+    background-color: rgb(192, 188, 188);
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.pipeLineMnagement-container-addInput{
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pipeLineMnagement-container-add-button{
+    margin-left: 5px;
+    background-color: rgb(94, 204, 94);
+}
+
+.pipeLineMnagement-container-cencle-button{
+    margin-left: 5px;
+    background-color: red;
+}
+
+.pipeLineMnagement-container-button-box > button:hover{
+    background-color: rgb(146, 144, 144);
+    color: white;
+}
+
+.pipeLineMnagement-container-list-head{
+    background-color: rgb(158, 157, 157);
+    color: white;
+    width: 500px;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.pipeLineMnagement-container-list-head th{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(158, 157, 157);
+}
+
+.pipeLineMnagement-container-list-box{
+    width: 100%;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.pipeLineMnagement-container-button-box{
+    overflow-y: auto
+}
+
+.pipeLineMnagement-container-add-container{
+    height: 100%;
+}
+
+.pipeLineMnagement-container-table-list{
+    width: 100%;
+}
+
+.pipeLineMnagement-container-dep-select{
+    margin-left: 5px;
+}

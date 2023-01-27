@@ -1,0 +1,79 @@
+
+
+.createPipeLine-container-list-item-update-contents{
+    height: 100px;
+    text-align: center;
+    font-size: small;
+}
+
+.createPipeLine-container-list-item-update-contents select{
+    font-size: small;
+    width: 100px;
+}
+
+.createPipeLine-container-list-item-update-content-tag{
+    margin: 0;
+}
+
+.createPipeLine-container-list-item-update-contents td{
+    padding: 0;
+}
+
+.createPipeLine-container-list-item-update-content{
+    display: block;
+    text-align: center;
+    padding: 0;
+    width: 99%;
+    height: 100%;
+}
+
+.createPipeLine-container-list-item-update-content-tag{
+    margin: 0;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.createPipeLine-container-list-item-update-content-tag input{
+    display: block;
+    width: 98%;   
+}
+
+.createPipeLine-container-list-item-contents-header{
+    background-color: rgb(203, 243, 230);
+}
+
+.createPipeLine-container-list-item-contents-updateButton{
+    background-color: lightgreen;
+    margin-left: -45px;
+}
+
+.createPipeLine-container-list-item-contents-updateButton:hover{
+    background-color: rgb(92, 236, 92);
+    color: white;
+}
+
+.createPipeLine-container-list-item-contents-cencleButton{
+    background-color: red;
+    margin-left: 10px;
+}
+
+.createPipeLine-container-list-item-contents-cencleButton:hover{
+    background-color: rgb(194, 5, 5);
+    color: white;
+}
+
+.createPipeLine-container-list-item-contents-update-sale td{
+    height: 28px;
+    background-color: rgb(203, 243, 230);
+}
+
+.createPipeLine-container-list-item-contents-update-sale td input{
+    margin-bottom: 2px;
+}
+
+tfoot{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+

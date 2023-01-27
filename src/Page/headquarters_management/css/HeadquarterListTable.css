@@ -1,0 +1,64 @@
+.headquartersManagement-container-list-item-update{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.headquartersManagement-container-list-checkbox-label{
+    width: 100px;
+    cursor: pointer;
+}
+
+.headquartersManagement-container-list-checkbox{
+    margin-right: 28px;
+}
+
+.headquartersManagement-container-list-item-delete{
+
+    background-color: red;
+}
+
+.headquartersManagement-container-list-item-update{
+
+    background-color: lightgreen;
+}
+
+.headquartersManagement-container-list-checkbox-label:hover{
+    background-color: rgb(220, 231, 235);
+}
+
+.headquartersManagement-container-list-item-delete:hover{
+    background-color: rgb(206, 3, 3);
+    color: white;
+}
+
+.headquartersManagement-container-list-item-update:hover{
+    background-color: rgb(94, 204, 94);
+    color: white;
+}
+
+.headquartersManagement-container-list-customerName{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.headquartersManagement-container-list-item-update-td input{
+    text-align: center;
+    margin-left: 90px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.headquartersManagement-container-list-item-update-td button:hover{
+    color: white;
+}
+
+.headquartersManagement-container-list-item-update-updateButton{
+    background-color:  lightgreen;
+    margin-inline-start: 5px;
+}
+
+.headquartersManagement-container-list-item-update-cencleButton{
+    background-color: red;
+    margin-inline-start: 5px;
+}

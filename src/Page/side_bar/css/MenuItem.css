@@ -1,0 +1,15 @@
+.menuItem{
+    font-weight: bold;
+    margin: 0.5rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+.menuItem:hover{
+    background-color: rgb(231, 87, 87);
+}
+
+.menuItem-title{
+    color: black;
+}
+

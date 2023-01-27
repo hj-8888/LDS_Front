@@ -1,0 +1,19 @@
+.menuTitle{
+    margin: 0.5rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+.menuTitle-title{
+    color: black;
+}
+
+.sideBar-menus-list{
+    user-select: none;
+    padding-left: 5px;
+}
+
+.sideBar-menus-item{
+    padding-left: 5px;
+    font-size: small;
+}

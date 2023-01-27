@@ -1,0 +1,171 @@
+.pipeLineMnagement-container-list-item-update{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pipeLineMnagement-container-list-checkbox-label{
+    text-align: justify;
+    cursor: pointer;
+}
+
+.pipeLineMnagement-container-list-checkbox-label span{
+    margin-left: 25%;
+}
+
+.pipeLineMnagement-container-list-item-delete{
+    background-color: red;
+}
+
+.pipeLineMnagement-container-list-item-update{
+    background-color: lightgreen;
+}
+
+.pipeLineMnagement-container-list-checkbox-label:hover{
+    background-color: rgb(220, 231, 235);
+}
+
+.pipeLineMnagement-container-list-item-delete:hover{
+    background-color: rgb(206, 3, 3);
+    color: white;
+}
+
+.pipeLineMnagement-container-list-item-update:hover{
+    background-color: rgb(94, 204, 94);
+    color: white;
+}
+
+.pipeLineMnagement-container-list-customerName{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pipeLineMnagement-container-list-item-update-td input{
+    text-align: center;
+    margin-left: 90px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.pipeLineMnagement-container-list-item-update-td button:hover{
+    color: white;
+}
+
+.pipeLineMnagement-container-list-item-update-updateButton{
+    background-color:  lightgreen;
+    margin-inline-start: 5px;
+}
+
+.pipeLineMnagement-container-list-item-update-cencleButton{
+    background-color: red;
+    margin-inline-start: 5px;
+}
+
+.pipeLineMnagement-container-list-item-contents-header{
+    background-color: rgb(203, 243, 230);
+    font-size: small;
+}
+
+.pipeLineMnagement-container-list-item-contents-sale td{
+    background-color: rgb(203, 243, 230);
+    font-size: small;
+}
+
+.pipeLineMnagement-container-list-item-contents-button-box td{
+    border-bottom: 1px solid black;
+}
+
+.pipeLineMnagement-container-list-item-contents-updateButton{
+    background-color: lightgreen;
+    margin-left: -20px;
+    margin-right: 5px;
+}
+
+.pipeLineMnagement-container-list-item-contents-cencleButton{
+    background-color: red;
+    margin-left: 5px;
+}
+
+.pipeLineMnagement-container-list-item-contents-updateButton:hover{
+    background-color: rgb(92, 236, 92);
+    color: white;
+}
+
+.pipeLineMnagement-container-list-item-contents-cencleButton:hover{
+    background-color: rgb(194, 5, 5);
+    color: white;
+}
+
+.pipeLineMnagement-container-list-item-contents{
+    font-size: small;
+    height: 100%;
+}
+
+.pipeLineMnagement-container-list-item-update-contents{
+    font-size: small;
+    text-align: center;
+    height: 100%;
+}
+
+.pipeLineMnagement-container-list-item-update-contents select{
+    font-size: small;
+    width: 100px;
+}
+
+.pipeLineMnagement-container-list-item-update-contents td{
+    padding: 0;
+    height: 5rem; 
+}
+
+.pipeLineMnagement-container-list-item-update-content{
+    display: block;
+    text-align: center;
+    padding: 0;
+    width: 99%;
+    height: 100%;
+}
+
+.pipeLineMnagement-container-list-item-update-content-tag{
+    height: 5rem;
+    margin: 0;
+}
+
+.pipeLineMnagement-container-list-item-update-content-tag input{
+    display: block;
+    width: 98%;    
+}
+
+
+.pipeLineMnagement-container-list-item-contents-update-sale td{
+    background-color: rgb(203, 243, 230);
+    font-size: small;
+}
+
+.pipeLineMnagement-container-list-item-contents-textFile-box{
+    width: 100%;
+}
+
+.pipeLineMnagement-container-list-item-contents-textFild-input{
+    width: 99%;
+    border: none;
+    background-color: white;
+}
+
+.textFild-color-button{
+    width: 5px;
+    height: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.textFild-font-button{
+    background-color: white;
+}
+
+.textFild-font-button:hover{
+    background-color: yellow;
+}
+
+.pipeLineMnagement-container-lists{
+    height: 30px;
+}
