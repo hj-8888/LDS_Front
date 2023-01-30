@@ -131,9 +131,7 @@ const Main = () => {
         <div className='main-side'>
             <SideBar changPageNum={changPageNum} menuArr={menuArr}/>
         </div>
-
         <div className='main-page-box'>
-
             <div className='main-page-head'>
                 <div className='main-page-body-select-menu'>
                     <div className='main-page-turnbutton' style={ curPage===0 ? {backgroundColor:'rgb(163, 5, 5)'} : {}} onClick={()=>{mainTurnbutton(0)}}>
@@ -141,7 +139,7 @@ const Main = () => {
                     </div> 
                     {
                         pageNumArray.map((n, index) => (
-                            <div key={index} className='main-page-turnbutton' value={n} style={ curPage===n ? {backgroundColor:'rgb(163, 5, 5)'} : {}}>
+                            <div key={index} className='main-page-turnbutton' value={n} style={ curPage===n ? {backgroundColor:'#5c0000'} : {}}>
                                 <span className='main-page-turnbutton-title' onClick={()=>{changPageNum(n)}}>{mainData[n].title}</span>
                                 <span className='main-page-turnbutton-close' value={n} onClick={() => closeTurnbutton(n)}>X</span>
                             </div>

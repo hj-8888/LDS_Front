@@ -14,7 +14,7 @@
         display: grid;  
         width: 1250px;
         grid-template-columns: 1fr;
-        grid-template-rows: 15% 80%;
+        grid-template-rows: 46px 95%;
     }
 
 @media (min-width: 1300px ) {
@@ -32,12 +32,11 @@
     .main-page-box{
         display: grid;  
         grid-template-columns: 1fr;
-        grid-template-rows: 5% 100%;
     }
 }
 
 .main-page-head{
-    border-radius: 15px;
+    height: 10%;
     justify-content: center;
 }
 
