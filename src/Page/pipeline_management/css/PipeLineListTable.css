@@ -62,17 +62,17 @@
 }
 
 .pipeLineMnagement-container-list-item-update-cencleButton{
-    background-color: red;
+    background-color: darkred;
     margin-inline-start: 5px;
 }
 
 .pipeLineMnagement-container-list-item-contents-header{
-    background-color: rgb(203, 243, 230);
+    background-color: #F5F5F5;
     font-size: small;
 }
 
 .pipeLineMnagement-container-list-item-contents-sale td{
-    background-color: rgb(203, 243, 230);
+    background-color: #F5F5F5;
     font-size: small;
 }
 
@@ -81,13 +81,14 @@
 }
 
 .pipeLineMnagement-container-list-item-contents-updateButton{
-    background-color: gray;
+    background-color: lightgray;
     margin-left: -20px;
     margin-right: 5px;
 }
 
 .pipeLineMnagement-container-list-item-contents-cencleButton{
-    background-color: red;
+    background-color: darkred;
+    color: white;
     margin-left: 5px;
 }
 
@@ -97,7 +98,7 @@
 }
 
 .pipeLineMnagement-container-list-item-contents-cencleButton:hover{
-    background-color: rgb(194, 5, 5);
+    background-color: red;
     color: white;
 }
 
