@@ -6,10 +6,10 @@
 }
 
 .menuItem:hover{
-    background-color: rgb(231, 87, 87);
+    background-color: #a32f2c;
 }
 
-.menuItem-title{
-    color: black;
+.menuItem_title{
+    color: #EEEEEE;
 }
 

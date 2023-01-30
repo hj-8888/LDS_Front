@@ -1,13 +1,13 @@
 
     .main-page-continer{
         display: grid;
-        grid-template-columns: 250px 100%;
+        grid-template-columns: 200px 100%;
         grid-template-rows: 100%;
     }
     
     .main-side{
-        width: 250px;
-        height: 95%;
+        width: 200px;
+        height: 100%;
     }
     
     .main-page-box{
@@ -20,70 +20,62 @@
 @media (min-width: 1300px ) {
     .main-page-continer{
         display: grid;
-        grid-template-columns: 250px 80%;
+        grid-template-columns: 200px 100%;
         grid-template-rows: 100%;
+        height: 100%;
     }
     
     .main-side{
-        width: 250px;
-        height: 115%;
+        width: 200px;
     }
     
     .main-page-box{
         display: grid;  
-        width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 15% 100%;
+        grid-template-rows: 5% 100%;
     }
-    
 }
 
 .main-page-head{
-    background-color: white;
-    margin: 1rem;
     border-radius: 15px;
     justify-content: center;
 }
 
-.main-page-head-title{
-    padding-top: 1.5rem;
-    padding-left: 3rem;
-    font-weight: 600;
-    user-select: none;
-}
 
 .main-page-body{
     background-color: white;
-    height: 100%;
+    height: 90%;
     margin: 1rem;
     border-radius: 15px;
     justify-content: center;
 }
 
 .main-page-body-select-menu{
+    font-size: 14px;
     display: flex;
-    border-bottom: 1px solid black;
     height: 30px;
-    margin: 10px;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
+    margin: 16px;
+    margin-bottom: 16px;
     user-select: none;
 }
 
 .main-page-body-contents{
-    padding-left: 5%;
+    padding: 2%;
 }
 
 .main-page-turnbutton{
     cursor: pointer;
-    margin-left: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
+    height: 23px;
+    padding-top : 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
     margin-bottom: 5px;
-    border-radius: 10px;
-    background-color: rgb(248, 40, 40);
+    border-radius: 15px;
+    background-color: #a32f2c;
     color: white;
     text-align: center;
+    align-items : center;
     white-space:nowrap;
 }
 
@@ -94,8 +86,4 @@
 
 .main-page-turnbutton-close{
     padding-left: 5px;
-}
-
-.main-page-body-content{
-    margin-right: 50px;
 }

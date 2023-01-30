@@ -63,8 +63,8 @@ table{
 }
 
 .pipeLineMnagement-container-list-head{
-    background-color: rgb(158, 157, 157);
-    color: white;
+    background-color: lightgray;
+    color: black;
     width: 500px;
     border: 0px;
     border-collapse: collapse;
@@ -73,7 +73,7 @@ table{
 .pipeLineMnagement-container-list-head th{
     position: sticky;
     top: 0px;
-    background-color: rgb(158, 157, 157);
+    background-color: lightgray;
 }
 
 .pipeLineMnagement-container-list-box{

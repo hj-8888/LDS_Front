@@ -4,10 +4,19 @@ table{
 }
 
 .mainSession-head{
-    background-color:rgb(250, 46, 46);
-    color: #fff;
+    background-color: lightgray;
+    color: #000;
 }
 
 .mainSession-container{
     height: 400px;
+}
+
+.mainSession-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.mainSession-subtitle{
+    margin-bottom: 2rem;
 }

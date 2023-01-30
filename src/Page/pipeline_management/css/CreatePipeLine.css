@@ -39,21 +39,22 @@
 }
 
 .createPipeLine-container-list-item-contents-header{
-    background-color: rgb(203, 243, 230);
+    background-color: lightgray;
 }
 
 .createPipeLine-container-list-item-contents-updateButton{
-    background-color: lightgreen;
+    background-color: lightgray;
     margin-left: -45px;
 }
 
 .createPipeLine-container-list-item-contents-updateButton:hover{
-    background-color: rgb(92, 236, 92);
+    background-color: gray;
     color: white;
 }
 
 .createPipeLine-container-list-item-contents-cencleButton{
-    background-color: red;
+    background-color: darkred;
+    color: white;
     margin-left: 10px;
 }
 
@@ -64,7 +65,7 @@
 
 .createPipeLine-container-list-item-contents-update-sale td{
     height: 28px;
-    background-color: rgb(203, 243, 230);
+    background-color: lightgray;
 }
 
 .createPipeLine-container-list-item-contents-update-sale td input{

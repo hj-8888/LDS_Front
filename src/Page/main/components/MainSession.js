@@ -25,6 +25,10 @@ const MainSession = () => {
 
   return (
     <div className='mainSession-container'>
+        <div>
+            <div className='mainSession-title'>메인 화면</div>
+            <div className='mainSession-subtitle'>설명을 적어봅시다</div>
+        </div>
         <table>
             <thead >
                 <tr className='mainSession-head'>

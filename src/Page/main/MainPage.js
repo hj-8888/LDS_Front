@@ -135,18 +135,10 @@ const Main = () => {
         <div className='main-page-box'>
 
             <div className='main-page-head'>
-                <div className='main-page-head-title'>
-                    LDS 통합영업 관리 시스템
-                </div>
-            </div>
-
-            <div className='main-page-body'>
-
                 <div className='main-page-body-select-menu'>
                     <div className='main-page-turnbutton' style={ curPage===0 ? {backgroundColor:'rgb(163, 5, 5)'} : {}} onClick={()=>{mainTurnbutton(0)}}>
                         {mainData[0].title}
                     </div> 
-
                     {
                         pageNumArray.map((n, index) => (
                             <div key={index} className='main-page-turnbutton' value={n} style={ curPage===n ? {backgroundColor:'rgb(163, 5, 5)'} : {}}>
@@ -155,17 +147,15 @@ const Main = () => {
                             </div>
                         ))
                     }
-
                 </div>
-
+            </div>
+            <div className='main-page-body'>
                 <div className='main-page-body-contents'>
                     <div className='main-page-body-content'>
                         {mainData[curPage].component}
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
   )
