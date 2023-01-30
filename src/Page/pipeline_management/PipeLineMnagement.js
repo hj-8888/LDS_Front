@@ -165,7 +165,10 @@ const PipeLineMnagement = () => {
 
   return (
     <div className='pipeLineMnagement-container'>
-
+      <div>
+            <div className='mainSession-title'>파이프라인 현황</div>
+            <div className='mainSession-subtitle'>설명을 적어봅시다</div>
+        </div>
       <div  className='pipeLineMnagement-container-button-box'>
         <button className='pipeLineMnagement-container-checkedDelte' onClick={()=>onCheckedDelete()}>선택 삭제</button>
         <button className='pipeLineMnagement-container-addButton' onClick={()=>setAddview(!addView)}>추가</button>

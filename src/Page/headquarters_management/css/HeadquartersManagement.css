@@ -39,22 +39,34 @@ table{
 
 .headquartersManagement-container-add-button{
     margin-left: 5px;
-    background-color: rgb(94, 204, 94);
+    background-color: lightgray;
+}
+
+.headquartersManagement-container-add-button:hover{
+    margin-left: 5px;
+    background-color: gray;
 }
 
 .headquartersManagement-container-cencle-button{
     margin-left: 5px;
-    background-color: red;
+    background-color: darkred;
+    color: white;
 }
 
-.headquartersManagement-container-button-box > button:hover{
+.headquartersManagement-container-cencle-button:hover{
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+}
+
+/* .headquartersManagement-container-button-box > button:hover{
     background-color: rgb(146, 144, 144);
     color: white;
-}
+} */
 
 .headquartersManagement-container-list-head{
-    background-color: rgb(158, 157, 157);
-    color: white;
+    background-color: lightgray;
+    color: black;
     width: 500px;
     border: 0px;
     border-collapse: collapse;
@@ -63,7 +75,7 @@ table{
 .headquartersManagement-container-list-head th{
     position: sticky;
     top: 0px;
-    background-color: rgb(158, 157, 157);
+    background-color: lightgray;
 }
 
 .headquartersManagement-container-list-box{

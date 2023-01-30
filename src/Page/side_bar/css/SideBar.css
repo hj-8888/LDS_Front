@@ -1,23 +1,28 @@
 .sideBar-container{
-    border-top-right-radius: 15px;
-    background-color: rgb(230, 75, 75);
-    background: linear-gradient(red, red, lightgray);
+    /* border-top-right-radius: 15px; */
+    background-color: #a32f2c;
+    /* background: linear-gradient(red, red, lightgray); */
     height: 100%;
 }
 
-
 .sideBar-home-menu{
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
     cursor: pointer;
 }
 
+.sideBar-home-icon{
+    width: 50%;
+}
+
 .sideBar-home-title{
-    font-style: oblique;
+    font-weight: bolder;
+    font-size: 15px;
     display: block;
     color: white;
     user-select: none;
 }
-
 .menuItems-box{
     display: flex;
     flex-direction: column;

@@ -167,7 +167,10 @@ const CustomerManagement = () => {
 
   return (
     <div className='customerManagement-container'>
-
+      <div>
+            <div className='mainSession-title'>고객 현황</div>
+            <div className='mainSession-subtitle'>설명을 적어봅시다</div>
+      </div>
       <div  className='customerManagement-container-button-box'>
       <button className='customerManagement-container-checkedDelte' onClick={()=>onCheckedDelete()}>선택 삭제</button>
         <button className='customerManagement-container-addButton' onClick={()=>onAddView()}>추가</button>

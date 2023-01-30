@@ -17,11 +17,12 @@
 
 
 .pipeLineMnagement-container-list-item-delete{
-    background-color: red;
+    background-color: darkred;
+    color: white;
 }
 
 .pipeLineMnagement-container-list-item-update{
-    background-color: lightgreen;
+    background-color: lightgray;
 }
 
 .pipeLineMnagement-container-list-checkbox-label:hover{
@@ -34,7 +35,7 @@
 }
 
 .pipeLineMnagement-container-list-item-update:hover{
-    background-color: rgb(94, 204, 94);
+    background-color: gray;
     color: white;
 }
 
@@ -56,7 +57,7 @@
 }
 
 .pipeLineMnagement-container-list-item-update-updateButton{
-    background-color:  lightgreen;
+    background-color:  gray;
     margin-inline-start: 5px;
 }
 
@@ -80,7 +81,7 @@
 }
 
 .pipeLineMnagement-container-list-item-contents-updateButton{
-    background-color: lightgreen;
+    background-color: gray;
     margin-left: -20px;
     margin-right: 5px;
 }
@@ -91,7 +92,7 @@
 }
 
 .pipeLineMnagement-container-list-item-contents-updateButton:hover{
-    background-color: rgb(92, 236, 92);
+    background-color: gray;
     color: white;
 }
 

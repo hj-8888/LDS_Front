@@ -167,7 +167,10 @@ const HeadquartersManagement = () => {
 
   return (
     <div className='headquartersManagement-container'>
-
+      <div>
+            <div className='mainSession-title'>본부 현황</div>
+            <div className='mainSession-subtitle'>설명을 적어봅시다</div>
+        </div>
       <div  className='headquartersManagement-container-button-box'>
         <button className='headquartersManagement-container-checkedDelte' onClick={()=>onCheckedDelete()}>선택 삭제</button>
         <button className='headquartersManagement-container-addButton' onClick={()=>onAddView()}>추가</button>

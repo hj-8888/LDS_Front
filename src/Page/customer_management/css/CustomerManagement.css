@@ -39,18 +39,30 @@ table{
 
 .customerManagement-container-add-button{
     margin-left: 5px;
-    background-color: rgb(94, 204, 94);
+    background-color: lightgray;
+}
+
+.customerManagement-container-add-button:hover {
+    margin-left: 5px;
+    background-color: gray;
 }
 
 .customerManagement-container-cencle-button{
     margin-left: 5px;
-    background-color: red;
-}
-
-.customerManagement-container-button-box > button:hover{
-    background-color: rgb(146, 144, 144);
+    background-color: darkred;
     color: white;
 }
+
+.customerManagement-container-cencle-button:hover {
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+}
+
+/* .customerManagement-container-button-box > button:hover{
+    background-color: rgb(146, 144, 144);
+    color: white;
+} */
 
 .customerManagement-container-list-head{
     background-color: rgb(158, 157, 157);
@@ -63,7 +75,8 @@ table{
 .customerManagement-container-list-head th{
     position: sticky;
     top: 0px;
-    background-color: rgb(158, 157, 157);
+    background-color: lightgray;
+    color: black;
 }
 
 .customerManagement-container-list-box{

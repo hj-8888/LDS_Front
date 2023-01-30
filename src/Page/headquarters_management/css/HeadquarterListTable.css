@@ -13,13 +13,13 @@
 }
 
 .headquartersManagement-container-list-item-delete{
-
-    background-color: red;
+    background-color: darkred;
+    color: white;
 }
 
 .headquartersManagement-container-list-item-update{
 
-    background-color: lightgreen;
+    background-color: lightgray;
 }
 
 .headquartersManagement-container-list-checkbox-label:hover{
@@ -32,7 +32,7 @@
 }
 
 .headquartersManagement-container-list-item-update:hover{
-    background-color: rgb(94, 204, 94);
+    background-color: gray;
     color: white;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .headquartersManagement-container-list-item-update-updateButton{
-    background-color:  lightgreen;
+    background-color:  rgb(121, 133, 121);
     margin-inline-start: 5px;
 }
 
